@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Plotter project 2022
 
 ## A base structure for any small scale cnc/plotter/printer
@@ -24,3 +25,9 @@ It is 20x40 with an extra flange on one side. --image to come
 - 12v power supply
 - V-grove nuts and bolt - TBA
 
+=======
+# Plotter-Project
+2022 plotter build
+
+Real readme on the way
+>>>>>>> f98d5e5aabbdea650a65399e4ce1574cc8b8b191
