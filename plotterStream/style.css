@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+
+.video-background {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+    z-index: -5;
+opacity: 1;
+}
+
+.burger{
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    width: 30px;
+    border-radius: 10px;
+}
+
+.burger:hover {
+    opacity: 0.5;
+}
+
+
+.boilerHeader {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15%;
+    font-family: monospace;
+}
+.hero {
+    margin: auto;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    vertical-align: bottom;
+    padding-top: 5%;
+    padding: 5px;
+    font-family: monospace;
+    background-color: rgba(0, 128, 0, 0.24);
+    border-radius: 5px;
+    height: 300px;
+    width: 200px;
+    word-wrap: break-word;
+    overflow-y: auto;
+    letter-spacing: -1px ;
+}
+
+.terminal {
+    align-self: flex-end;
+}
+
+.logo {
+    width: 100px;
+    margin: auto;
+    display: flex;
+}
+
+.but {
+    margin: auto;
+    display: flex;
+    padding-top: 5%;
+    background-color: rgb(0, 58, 19);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 20px;
+
+}
+
+.loading {
+    animation-name: spin;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #05960063;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  .square {
+    width: 400px;
+    height: 400px;
+    background-color: #059600;
+    margin: auto;
+    border-radius: 5px;
+    cursor:crosshair;
+    padding: 50px;
+  }
